@@ -1,0 +1,7 @@
+tasks:
+  - command: npx -y live-server registry --port=3000
+
+ports:
+  - port: 3000
+    visibility: public
+    onOpen: open-browser

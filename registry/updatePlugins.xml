@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The <plugins> element contains the description of the plugins available at this repository. Required.
+-->
+<plugins>
+    <!--
+      Each <plugin> element describes one plugin in the repository. Required.
+      id - used by JetBrains IDEs to uniquely identify a plugin. Required. Must match <id> in plugin.xml
+      url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
+      version - version of this plugin. Required. Must match <version> in plugin.xml
+    -->
+    <plugin id="fully.qualified.id.of.this.plugin" url="https://3000-andreafalze-gitpodjbcus-8b8bbp3yk9w.ws-eu71.gitpod.io/JsonFormat.jar" version="100.200.300">
+        <name>HellelujaTest1</name>
+        <description>Blablala</description>
+        <idea-version since-build="181.3" until-build="300.*" />
+    </plugin>
+    <plugin id="id.of.different.plugin" url="https://3000-andreafalze-gitpodjbcus-8b8bbp3yk9w.ws-eu71.gitpod.io/JsonFormat.jar" version="400.500">
+        <name>HellelujaTest2</name>
+        <description>Blablala</description>
+        <idea-version since-build="181.3" until-build="300.*" />
+    </plugin>
+</plugins>
